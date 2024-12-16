@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+header {
+  height: 250px;
+  width: 100%;
+  background-image: url(vegeta.jpg);
+}
+
+.navbar {
+  position: absolute;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.navbar a {
+  color: black;
+}
+
+.navbar a {
+  transition: 0.5s;
+  color: white;
+}
+
+.navbar .logo {
+  font-size: 2em;
+  font-weight: bold;
+  height: 150px;
+}
+
+.navbar .nav-links ul {
+  display: flex;
+}
+
+.navbar .nav-links ul li {
+  margin: 0 30px;
+}
+
+.navbar .nav-links ul li.active a {
+  color: black;
+  font-weight: 600;
+}
+
+.navbar .nav-links ul li.active2 a {
+  color: black;
+  font-weight: 600;
+}
+
+.navbar .nav-links ul li.active3 a {
+  color: black;
+  font-weight: 600;
+}
+
+.navbar .nav-links ul li.active4 a {
+  color: black;
+  font-weight: 600;
+}
+
+.navbar .nav-links ul li.active5 a {
+  color: black;
+  font-weight: 600;
+}
+
+.menu {
+  background-color: purple;
+  height: 20px;
+  width: 20px;
+  display: none;
+}
+
+.menu-hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-image: url("hamburger_icon2.png");
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+}
+
+.navbar .nav-links ul li {
+  margin: 25px 25;
+  font-size: 2em;
+}
